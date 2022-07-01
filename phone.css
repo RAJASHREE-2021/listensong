@@ -1,0 +1,12 @@
+.container{
+    min-height: 70vh;
+    max-width: 1980px;
+    background-color:black;
+    color: aliceblue;
+ 
+   margin: 30px auto;
+   width: 90%;
+   border-radius: 15px;
+   padding: 30px;
+   background-image: url(bg.jpg);
+}

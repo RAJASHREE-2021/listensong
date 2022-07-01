@@ -1,0 +1,103 @@
+
+.container{
+    min-height: 70vh;
+    max-width: 1980px;
+    background-color:black;
+    color: aliceblue;
+   display: flex;
+   margin: 30px auto;
+   width: 90%;
+   border-radius: 15px;
+   padding: 30px;
+   background-image: url(bg.jpg);
+   background-repeat: no-repeat;
+}
+
+
+#bar{
+width: 80vw;
+
+}
+
+#img{
+   margin-left: 120px;
+    width: 200px;
+}
+#imgnew{
+    margin-left: 120px;
+    width: 200px;
+}
+.bottom{
+    position: sticky;
+    height:100px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon{
+    margin-top: 15px;
+}
+.icon i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+.songs
+{
+height:350px;
+display: flex;
+background-color:black ;
+width:80%;
+color:black;
+
+}
+.songlist img{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+}
+
+.songItem{
+    height: 50px;
+    display:flex;
+    
+    background-color: white;
+   width: 150%;;
+    color: black;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
